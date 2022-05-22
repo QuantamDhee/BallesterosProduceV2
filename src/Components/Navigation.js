@@ -27,6 +27,11 @@ function Navigation() {
               </li>
             </ul>
           </div>
+          <div className="ml-auto">
+              <Link className="nav-link" to="/cart">
+                  🛒
+              </Link>
+          </div>
         </div>
       </nav>
     )
